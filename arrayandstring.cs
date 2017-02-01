@@ -43,6 +43,15 @@ public class StringAndNumber
     		foreach (string n in number){
        		 Console.Write(n);
    		 }
+		
+		//short way:
+		/*
+		var array = Console.ReadLine().Split(new char[] { ' ',',','.' }, StringSplitOptions.RemoveEmptyEntries).
+		            Select(int.Parse).ToList();
+                Console.WriteLine(string.Join(", ", array));
+		
+		*/
+
                        
 		        
 }
